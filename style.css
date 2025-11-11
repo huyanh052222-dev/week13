@@ -135,6 +135,7 @@ body {
   background-image: url(assets/middle-background.png);
   background-repeat: no-repeat;
   background-position: 50% 400px;
+  /* background-color: red; */
   background-size: 200%;
   min-height: 1983px;
 }
@@ -351,16 +352,24 @@ body {
 }
 
 .section2 .content .left {
-  margin-top: 57px;
-  position: relative;
-  .section2-icon {
-    position: absolute;
-    z-index: -10;
+    position: relative;
+    margin-top: 57px;
+    .section2-icon {
+        position: absolute;
+        
+    z-index: 100;
+    opacity: 0.6;
+    @media screen and (max-width: 1024px) {
+        z-index: -10;
+        opacity: 1;
+    }
   }
   .box {
     margin: 38px 0 0 42px;
     max-width: 302px;
     min-height: 213px;
+    /* z-index: 0; */
+   
     .top-text {
       color: #e23434;
       font-weight: 700;
@@ -516,6 +525,7 @@ body {
   .section2-icon {
     position: absolute;
     z-index: -10;
+    
   }
   .box {
     margin: 40px 0 0 42px;
@@ -648,6 +658,7 @@ body {
     position: absolute;
     top: 75px;
     left: 0;
+    gap: 40px;
     .infor {
       display: flex;
       flex-direction: column;
