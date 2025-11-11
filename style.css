@@ -363,6 +363,7 @@ body {
         z-index: -10;
         opacity: 1;
     }
+    
   }
   .box {
     margin: 38px 0 0 42px;
@@ -971,3 +972,10 @@ body {
     margin-left: 80px;
   }
 }
+
+.section-on{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
