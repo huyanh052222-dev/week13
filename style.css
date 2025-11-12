@@ -954,11 +954,13 @@ body {
   }
   .section4 .right-content {
     max-width: 600px;
+    border-radius: 10px 0 0 10px;
   }
   .section5 .container {
     .left-content {
       margin-right: 10px;
     }
+
   }
   .bottom-background {
     background-size: 160%;
