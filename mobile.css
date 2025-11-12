@@ -153,6 +153,7 @@
     background-position: center;
     background-size: 500%;
     min-height: 520px;
+    width: 100%;
   }
   .section5-icon {
     display: none;
