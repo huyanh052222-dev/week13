@@ -133,6 +133,8 @@ body {
 
 .middle-background {
   background-image: url(assets/middle-background.png);
+  position: relative;
+  z-index: -1;
   background-repeat: no-repeat;
   background-position: 50% 400px;
   /* background-color: red; */
