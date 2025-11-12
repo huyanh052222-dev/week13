@@ -528,6 +528,7 @@ body {
   .section2-icon {
     position: absolute;
     z-index: -10;
+    margin-left: 10px;
     
   }
   .box {
