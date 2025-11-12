@@ -394,6 +394,8 @@
     .container {
       .right-content {
         min-height: 215px;
+        max-width: 100%;
+        border-radius: 0;
       }
       .left-content {
         .box {
