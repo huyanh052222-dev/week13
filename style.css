@@ -929,6 +929,7 @@ body {
   .header-hero {
     height: 576px;
     transition: all 0.8s ease;
+  
   }
   .hero {
     margin-top: 57px;
